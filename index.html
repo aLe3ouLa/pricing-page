@@ -36,8 +36,8 @@
       <div class="card">
           <h2 class="card__title">Basic</h2>
           <div class="card__price">
-            <span class="toggle_on">&dollar;19.99</span>
-            <span class="toggle_off">&dollar;199.99</span>
+            <span class="toggle_on"><span>&dollar;</span>19.99</span>
+            <span class="toggle_off"><span>&dollar;</span>199.99</span>
           </div>
 
           <div class="card__details">
@@ -51,11 +51,11 @@
           <button type="button" name="button" class="btn">Learn More</button>
       </div>
 
-      <div class="card">
+      <div class="card card--purple">
           <h2 class="card__title">Professional</h2>
           <div class="card__price">
-            <span class="toggle_on">&dollar;24.99</span>
-            <span class="toggle_off">&dollar;249.99</span>
+            <span class="toggle_on"><span>&dollar;</span>24.99</span>
+            <span class="toggle_off"><span>&dollar;</span>249.99</span>
           </div>
 
           <div class="card__details">
@@ -66,14 +66,14 @@
               </ul>
           </div>
 
-          <button type="button" name="button" class="btn">Learn More</button>
+          <button type="button" name="button" class="btn btn-purple">Learn More</button>
       </div>
 
       <div class="card">
           <h2 class="card__title">Master</h2>
           <div class="card__price">
-            <span class="toggle_on">&dollar;39.99</span>
-            <span class="toggle_off">&dollar;399.99</span>
+            <span class="toggle_on"><span>&dollar;</span>39.99</span>
+            <span class="toggle_off"><span>&dollar;</span>399.99</span>
           </div>
 
           <div class="card__details">
@@ -112,12 +112,12 @@
 
       function annual() {
         changeDisplayProperty("toggle_off", "none");
-        changeDisplayProperty("toggle_on", "block");
+        changeDisplayProperty("toggle_on", "flex");
       }
 
       function monthly() {
         changeDisplayProperty("toggle_on", "none");
-        changeDisplayProperty("toggle_off", "block");
+        changeDisplayProperty("toggle_off", "flex");
       }
 
 
