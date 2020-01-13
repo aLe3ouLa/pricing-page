@@ -7,11 +7,15 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+
 }
 
 body {
-  /* background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%)); */
-  background-size: cover;
+  background-color: hsl(240, 78%, 98%);
+  background-image: url('../images/bg-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
 
   font-family: Montserrat, sans-serif;
   font-weight: 400;
@@ -19,6 +23,9 @@ body {
 }
 
 .section-pricing {
+  background-image: url('../images/bg-top.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
   height: 100vh;
 
   display: flex;
@@ -38,6 +45,7 @@ body {
   align-items: center;
 
   margin: 2rem 0;
+  transition: all 0.35s ease-out;
 }
 
 .switch {
@@ -165,6 +173,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  background-color: white;
+
 
   padding: 2rem;
   border-radius: 5px;
